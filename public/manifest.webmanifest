@@ -1,0 +1,40 @@
+{
+  "name": "Study Smart AI",
+  "short_name": "StudySmart",
+  "description": "Turn your notes into AI quizzes, summaries, flashcards and a personalized study timetable.",
+  "start_url": "/dashboard",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fbfaf8",
+  "theme_color": "#0d9488",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "url": "/dashboard"
+    },
+    {
+      "name": "Start focus session",
+      "url": "/focus"
+    },
+    {
+      "name": "Take a quiz",
+      "url": "/quiz"
+    }
+  ]
+}
